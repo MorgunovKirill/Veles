@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/raleway-regular.woff2") format("woff2"), url("../fonts/raleway-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../fonts/raleway-medium.woff2") format("woff2"), url("../fonts/raleway-medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../fonts/raleway-600.woff2") format("woff2"), url("../fonts/raleway-600.woff") format("woff"); }
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/raleway-bold.woff2") format("woff2"), url("../fonts/raleway-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Playfair-display";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/playfair-display-regular.woff2") format("woff2"), url("../fonts/playfair-display-900.woff") format("woff"); }
+
+@font-face {
+  font-family: "Playfair-display";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../fonts/playfair-display-900.woff2") format("woff2"), url("../fonts/playfair-display-900.woff") format("woff"); }
+
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.38;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  font-size: 0; }
+
+h1 {
+  font-family: "Playfair-display", "Times New Roman", serif;
+  font-weight: 900; }
