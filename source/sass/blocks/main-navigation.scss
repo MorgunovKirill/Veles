@@ -1,0 +1,27 @@
+.main-navigation {
+    margin: 0 0 47px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+
+    &__item {
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+        text-decoration: none;
+    }    
+}

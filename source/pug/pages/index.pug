@@ -1,6 +1,9 @@
-extends ../base/layout
+include ../base/mixins
+include ../base/header
+include ../base/footer
 
 block data
+block variables
 
 block variables
   - var title = "Навигационная страница"
@@ -11,7 +14,56 @@ block variables
   - var footerMod = ""
   - var currentPage = ""
 
-block main
-  main
-    h1  Новости культуры
+doctype html
+html(lang="ru")
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    meta(name="description", content="Мёд - оптом и в розницу")
+
+    link(rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png")   
+    link(rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#ffcf55")
+    meta(name="msapplication-TileColor" content="#ffcf55")
+    meta(name="theme-color" content="#ffffff")
+
+    link(rel="stylesheet", href="css/style.min.css")
+
+  body
+    +sprite()  
+    header.header.container      
+      h1.header__title Новости культуры
+      ul.main-navigation
+        li.main-navigation__item
+          a.main-navigation__link(href="#") НОВОСТИ      
+        li.main-navigation__item
+          a.main-navigation__link(href="#") ОБЗОРЫ      
+        li.main-navigation__item
+          a.main-navigation__link(href="#") МУЗЫКА      
+        li.main-navigation__item
+          a.main-navigation__link(href="#") АРХИТЕКТУРА     
+        li.main-navigation__item
+          a.main-navigation__link(href="#") КИНО      
+        li.main-navigation__item
+          a.main-navigation__link(href="#") ТЕАТР     
+        li.main-navigation__item
+          a.main-navigation__link(href="#") ЛИТЕРАТУРА     
+        li.main-navigation__item
+          a.main-navigation__link(href="#") РЕЛИГИЯ      
+        li.main-navigation__item
+          a.main-navigation__link(href="#") ЖИВОПИСЬ  
+    main
+      section.intro
+        .container
+          span.intro__new новое         
+          h2.intro__title Подводный отель
+          p.intro__description Как известно, Дубай – город контрастов. Самые революционные и&nbsp;фантастические мечты архитекторов способен воплотить в&nbsp;жизнь этот мегаполис, построенный на нефти и за счет нефти      
+    
+    block modals
+
+    script(src="js/vendor.min.js")
+    script(src="js/main.min.js")
       

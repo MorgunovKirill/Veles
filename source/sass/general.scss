@@ -15,7 +15,7 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 1.38;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: $font-family-primary;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -36,7 +36,11 @@ img {
   font-size: 0;
 }
 
-h1 {
-  font-family: $font-family-secondary;
-  font-weight: 900;
+.container {
+  max-width: 1167px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
 }

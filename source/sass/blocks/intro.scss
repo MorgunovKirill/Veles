@@ -1,0 +1,51 @@
+.intro {
+    padding-top: 62px;
+    margin-bottom: 99px;
+    background-image: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center 0;
+    min-height: 464px;
+
+    &__new {
+        display: block;
+        max-width: 99px;
+        margin: 0 auto 44px auto;
+        padding: 4px 15px 4px 15px;
+        background-color: #FF7931;
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 85px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0 0 42px 0;
+    }
+
+    &__description {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        max-width: 462px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
