@@ -6,7 +6,7 @@ block data
 block variables
 
 block variables
-  - var title = "Навигационная страница"
+  - var title = "Veles - главная"
   - var wrapperMod = ""
   - var hasHeader = false
   - var headerMod = ""
@@ -65,30 +65,38 @@ html(lang="ru")
         .content__main
           .content__section.content__section--news
             h2.content__title НОВОСТИ
-            ul.content__news
-              li.content__news-item.content__news-item--big
+            .content__news
+              .content__news-main
                 a.content__news-link(href="#")
+                  img(src="img/birds.jpg" width="470" height="334" alt="изображение птиц")                  
                   h3.content__heading Новости культуры России и всего мира
                   p.content__description В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards
-              li.content__news-item 
-                a.content__news-link(href="#")
-                  h3.content__heading Новости культуры России и всего мира
-                  p.content__description В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards
-              li.content__news-item 
-                a.content__news-link(href="#")
-                  h3.content__heading Новости культуры России и всего мира
-                  p.content__description В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards
-              li.content__news-item 
-                a.content__news-link(href="#")
-                  h3.content__heading Новости культуры России и всего мира
-                  p.content__description В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards
+              ul.content__news-list
+                li.content__news-item 
+                  a.content__news-link(href="#")
+                    img(src="img/leonov.jpg" width="127" height="91" alt="фотография памятника Евгению Леонову")
+                    .content__news-info
+                      h3.content__heading Открытие нового памятника Евгению&nbsp;Леонову
+                      p.content__description 10 сентября в 15:00 был открыт памятник писателю
+                li.content__news-item 
+                  a.content__news-link(href="#")
+                    img(src="img/boss.jpg" width="127" height="91" alt="фотография двух людей, мужчины и женщины - героев статьи")
+                    .content__news-info
+                      h3.content__heading Беседы с писателями
+                      p.content__description Русские писатели говорят о важности искусства
+                li.content__news-item 
+                  a.content__news-link(href="#")
+                    img(src="img/stpatrick.jpg" width="127" height="91" alt="изображение ирландского мужчины в шляпе с четырехлистным клевером - символа дня святого патрика")
+                    .content__news-info
+                      h3.content__heading День и ночь св. Патрика: встреча старых друзей
+                      p.content__description Не Джойсом единым живет Ирландия! 
           .content__section.content__section--reviews
             h2.content__title ОБЗОРЫ
           .content__section.content__section--footer
             h2.content__title Ох, уж этот балет
         .content__aside
           .content__article 
-             img(src="img/baloons.jpg" alt="воздушные шары")
+             img(src="img/baloons.jpg" alt="Фотография воздушных шаров")
              h2.content__title ВОЗДУШНЫЕ ШАРЫ
              a.content__btn.btn.btn--light(href="#") Cмотреть
           .content__article 

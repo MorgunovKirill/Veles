@@ -14,23 +14,14 @@
         text-transform: uppercase;     
         margin: 0 0 15px 0;          
     }
-  
-    &__news {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    &__news-link {
-        text-decoration: none;
-    }
-
+    
     &__heading {
         font-family: $font-family-secondary;
         font-style: normal;
         font-weight: 900;
         font-size: 20px;
         line-height: 27px; 
+        margin: 0 0 10px 0;
         color: #000000;
     }
 
@@ -41,7 +32,87 @@
         font-size: 14px;
         line-height: 150%;
         color: #000000;
+        margin: 0;
     }
+  
+    &__news {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__news-main {     
+        flex-basis: calc(60.7% - 16px);
+
+        .content__news-link {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 27px;
+        }
+
+        .content__heading {
+            margin-top: auto;
+        }
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__news-list {
+        flex-basis: calc(39.3% - 16px);
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__news-item {        
+        .content__news-link {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 31px;
+        }
+
+        .content__heading {
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        .content__description {
+            font-size: 10px;
+            line-height: 150%;
+        }
+
+        img {
+            margin-right: 12px;
+        }
+
+        &:last-child {
+            .content__news-link {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__news-link {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none; 
+        
+        & > * {
+            position: relative;
+        }
+    }
+
 
     &__main {
         outline: 1px solid red;       
