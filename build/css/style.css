@@ -94,13 +94,27 @@ img {
   text-decoration: none;
   border: none;
   padding: 11px 30px;
-  cursor: pointer; }
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .btn span {
+    margin-right: 2px; }
   .btn--light {
     background: #FF7931;
     border: 2px solid #FF7931; }
   .btn--dark {
     background: rgba(0, 0, 0, 0.7);
     border: 2px solid #FF9A64; }
+
+.mask {
+  position: absolute; }
 
 .header {
   padding-top: 60px; }
@@ -227,6 +241,13 @@ img {
     line-height: 150%;
     color: #000000;
     margin: 0; }
+  .content__img {
+    position: relative;
+    width: 100%;
+    min-height: 203px; }
+    .content__img .mask {
+      width: 100%;
+      height: 100%; }
   .content__section {
     margin-bottom: 76px; }
     .content__section:last-child {

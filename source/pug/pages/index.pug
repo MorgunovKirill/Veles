@@ -100,7 +100,9 @@ html(lang="ru")
                   p.content__description В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»
               li.content__reviews-item 
                 a.content__reviews-link(href="#")
-                  img(src="img/anatomy.jpg" width="370" height="203" alt="фотография камня формой как человеческие ступни в руках")
+                  .content__img
+                    img(class="mask" src="img/mask.png" width="370" height="203" alt="серый фон")
+                    img(src="img/anatomy.jpg" width="370" height="203" alt="фотография камня формой как человеческие ступни в руках")
                   h3.content__heading Анатомия за 30 секунд
                   p.content__description Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно-популярной литературе заметно вырос
               li.content__reviews-item 
@@ -116,20 +118,28 @@ html(lang="ru")
           .content__section.content__section--footer
             img(src="img/balet2.jpg" width="770" height="176" alt="фотография балерины, сидящей на шпагате")
             h2.content__title Ох, уж этот балет
-            a.content__btn.btn.btn--dark(href="#") Cмотреть
+            a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+              +icon("icon-arrowforward", 24, 25)
         .content__aside
           .content__article 
              img(src="img/baloons.jpg" alt="Фотография воздушных шаров")
              h2.content__title ВОЗДУШНЫЕ ШАРЫ
-             a.content__btn.btn.btn--light(href="#") Cмотреть
+             a.content__btn.btn.btn--light(href="#")
+              span Cмотреть
+              +icon("icon-arrowforward", 24, 25)
           .content__article 
              img(src="img/jeremy-bishop.jpg" alt="Фотография женщины под водой")
              h2.content__title.content__title--light НЕОБЫЧНАЯ ФОТОСЕССИЯ
-             a.content__btn.btn.btn--dark(href="#") Cмотреть
+             a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+              +icon("icon-arrowforward", 24, 25)
           .content__article 
              img(src="img/bogdan-pasca.jpg" alt="Фотография цапли")
              h2.content__title.content__title--light Выставка птиц
-             a.content__btn.btn.btn--dark(href="#") Cмотреть
+             a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+              +icon("icon-arrowforward", 24, 25)
         .content__slider
     footer.footer
       .container      

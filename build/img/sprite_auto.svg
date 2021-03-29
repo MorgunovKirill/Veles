@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrowforward" viewBox="0 0 24 25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4L10.6 5.4L16.2 11H4V13H16.2L10.6 18.6L12 20L20 12L12 4Z" fill="white"/>
+</symbol><symbol id="icon-arrowleft" viewBox="0 0 13 13">
+<path d="M-7.39652e-06 6.33006L6.38905 -4.79765e-05L6.36184 5.87034L6.3301 12.7191L-7.39652e-06 6.33006Z" fill="#A8A8A8"/>
+</symbol><symbol id="icon-arrowright" viewBox="0 0 13 13">
+<path d="M12.7191 6.33006L6.33007 -4.79765e-05L6.35727 5.87034L6.38901 12.7191L12.7191 6.33006Z" fill="#A8A8A8"/>
 </symbol><symbol id="icon-arrowsmall" viewBox="0 0 25 25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.59998 8.4L13.2 13L8.59998 17.6L9.99998 19L16 13L9.99998 7L8.59998 8.4Z" fill="#48494D" fill-opacity="0.5"/>
 </symbol><symbol id="icon-bookmark" viewBox="0 0 14 18">
