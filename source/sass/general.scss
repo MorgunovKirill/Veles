@@ -44,3 +44,28 @@ img {
     padding: 0 16px;
   }
 }
+
+.btn {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  padding: 11px 30px;
+  cursor: pointer;
+
+  &--light {
+    background: #FF7931;
+    border: 2px solid #FF7931;
+  }
+
+  &--dark {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF9A64;
+  }  
+}

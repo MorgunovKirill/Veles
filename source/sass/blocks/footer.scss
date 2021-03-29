@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 26px;
+    background-color: #F7F7F7;
+
+    &__title {        
+        font-family: $font-family-secondary;
+        font-weight: 900;  
+        text-align: center;   
+        margin: 0 0 46px 0;
+        font-size: 35px;
+        line-height: 47px;
+        color: #000000;
+    }
+}
