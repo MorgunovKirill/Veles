@@ -227,6 +227,10 @@ img {
     line-height: 150%;
     color: #000000;
     margin: 0; }
+  .content__section {
+    margin-bottom: 76px; }
+    .content__section:last-child {
+      margin-bottom: 0; }
   .content__news {
     margin: 0;
     padding: 0;
@@ -340,6 +344,24 @@ img {
       left: 0; }
     .content__article > * {
       position: relative; }
+  .content__reviews {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .content__reviews-item {
+    width: calc(50% - 14px);
+    margin-bottom: 37px; }
+  .content__reviews-link {
+    text-decoration: none;
+    color: inherit; }
   .content__slider {
     outline: 1px solid red;
     -webkit-box-flex: 0;
