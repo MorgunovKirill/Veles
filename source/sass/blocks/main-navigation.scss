@@ -3,6 +3,10 @@
     padding: 0;
     list-style: none;
     display: flex;
+
+    @media (max-width: 1160px) {
+        display: none;
+      }     
     
 
     &__item {

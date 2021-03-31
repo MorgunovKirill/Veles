@@ -7,6 +7,12 @@
     background-position: center 0;
     min-height: 464px;
 
+    @media (max-width: 768px) {
+        padding-top: 25px;
+        margin-bottom: 30px;
+        min-height: 372px;
+      }
+
     &__new {
         display: block;
         max-width: 99px;
@@ -22,6 +28,10 @@
         letter-spacing: 2px;
         text-transform: uppercase;
         color: #FFFFFF;
+
+        @media (max-width: 768px) {
+            margin-bottom: 30px;
+          }
     }
 
     &__title {
@@ -35,6 +45,12 @@
         text-transform: uppercase;
         color: #FFFFFF;
         margin: 0 0 42px 0;
+
+        @media (max-width: 768px) {
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 150%;
+          }
     }
 
     &__description {

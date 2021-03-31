@@ -1,6 +1,10 @@
 .header {
     padding-top: 60px;
 
+    @media (max-width: 768px) {
+        padding-top: 40px;
+      }
+
     &__title {        
         font-family: $font-family-secondary;
         font-weight: 900;  
@@ -9,5 +13,12 @@
         font-size: 35px;
         line-height: 47px;
         color: #000000;
+
+        @media (max-width: 768px) {
+            font-size: 25px;
+            line-height: 33px;           
+            max-width: 146px;
+            margin: 0 auto 30px auto;
+          }        
     }
 }

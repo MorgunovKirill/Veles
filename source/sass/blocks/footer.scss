@@ -2,6 +2,10 @@
     padding-top: 26px;
     background-color: #F7F7F7;
 
+    @media (max-width: 768px) {
+        display: none;
+      }     
+
     &__title {        
         font-family: $font-family-secondary;
         font-weight: 900;  
@@ -10,5 +14,10 @@
         font-size: 35px;
         line-height: 47px;
         color: #000000;
+
+        @media (max-width: 768px) {
+            font-size: 25px;
+            line-height: 33px;
+          }     
     }
 }
