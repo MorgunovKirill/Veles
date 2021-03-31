@@ -27,5 +27,12 @@
         text-transform: uppercase;
         color: #000000;
         text-decoration: none;
+        transition: color 0.3s ease;
+        outline: none;
+
+        &:hover,
+        &:focus {           
+            color: #FF7931; 
+        }
     }    
 }
