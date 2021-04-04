@@ -330,7 +330,7 @@ img {
     cursor: pointer;
     z-index: 1; }
     .content__bookmark:hover svg, .content__bookmark:focus svg {
-      fill: #FF7931; }
+      fill: #ff7931; }
     .content__bookmark svg {
       fill: transparent;
       -webkit-transition: fill 0.3s ease;
@@ -349,7 +349,7 @@ img {
     cursor: pointer;
     z-index: 1; }
     .content__views:hover svg, .content__views:focus svg {
-      stroke: #FF7931; }
+      stroke: #ff7931; }
     .content__views svg {
       -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease;
@@ -377,7 +377,7 @@ img {
     cursor: pointer;
     z-index: 1; }
     .content__comments:hover svg, .content__comments:focus svg {
-      stroke: #FF7931; }
+      stroke: #ff7931; }
     .content__comments svg {
       -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease;
@@ -444,7 +444,7 @@ img {
         line-height: 35px;
         letter-spacing: 2px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: #ffffff;
         margin: 0 47px 0 0; }
         @media (max-width: 768px) {
           .content__section--footer .content__title {
@@ -558,7 +558,7 @@ img {
     text-decoration: none;
     outline: none; }
     .content__news-link:hover .content__heading, .content__news-link:focus .content__heading {
-      color: #FF7931; }
+      color: #ff7931; }
     .content__news-link > * {
       position: relative; }
   .content__main {
@@ -596,9 +596,9 @@ img {
       text-align: center;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #1A1C1C; }
+      color: #1a1c1c; }
       .content__aside .content__title--light {
-        color: #FFFFFF; }
+        color: #ffffff; }
   .content__article {
     position: relative;
     max-width: 370px;
@@ -654,7 +654,7 @@ img {
         margin-left: auto;
         margin-right: auto; } }
     .content__reviews-item--active .content__bookmark svg {
-      fill: #FF7931; }
+      fill: #ff7931; }
     .content__reviews-item--active .content__views {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -677,22 +677,7 @@ img {
     color: inherit;
     outline: none; }
     .content__reviews-link:hover .content__heading, .content__reviews-link:focus .content__heading {
-      color: #FF7931; }
-  .content__slider {
-    outline: 1px solid red;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    margin-top: 80px;
-    margin-bottom: 97px;
-    min-height: 136px; }
-    @media (max-width: 768px) {
-      .content__slider {
-        -webkit-box-flex: initial;
-            -ms-flex: initial;
-                flex: initial;
-        margin-top: 50px;
-        margin-bottom: 75px; } }
+      color: #ff7931; }
 
 .copyright {
   text-align: right; }
@@ -705,12 +690,19 @@ img {
     color: rgba(0, 0, 0, 0.5); }
 
 .content-slider {
-  padding-top: 165px;
-  padding-bottom: 154px; }
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  margin-top: 80px;
+  margin-bottom: 97px;
+  min-height: 136px; }
   @media (max-width: 768px) {
     .content-slider {
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+      -webkit-box-flex: initial;
+          -ms-flex: initial;
+              flex: initial;
+      margin-top: 50px;
+      margin-bottom: 75px; } }
 
 .content-slider__container {
   position: relative;
