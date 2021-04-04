@@ -704,6 +704,102 @@ img {
     line-height: 15px;
     color: rgba(0, 0, 0, 0.5); }
 
+.content-slider {
+  padding-top: 165px;
+  padding-bottom: 154px; }
+  @media (max-width: 768px) {
+    .content-slider {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+
+.content-slider__container {
+  position: relative;
+  z-index: 2; }
+
+.content-slider__list {
+  width: 100%;
+  overflow: hidden; }
+  @media (max-width: 1350px) {
+    .content-slider__list {
+      position: relative; } }
+  @media (max-width: 768px) {
+    .content-slider__list {
+      width: 100vw; } }
+  .content-slider__list .slider-controls-btn {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+    .content-slider__list .slider-controls-btn--prev {
+      left: -40px; }
+    .content-slider__list .slider-controls-btn--next {
+      right: -40px; }
+    @media (max-width: 1320px) {
+      .content-slider__list .slider-controls-btn {
+        display: none; } }
+
+.content-slider__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.content-slider__item {
+  position: relative;
+  width: 270px;
+  max-height: 136px;
+  min-height: 107px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  padding: 42px 0 28px 0;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .content-slider__item {
+      width: 92%;
+      min-height: 405px; }
+      .content-slider__item .content-card {
+        min-height: 405px; } }
+  .content-slider__item > * {
+    position: relative; }
+  .content-slider__item--hidden::before {
+    opacity: 0.7;
+    z-index: 2; }
+  .content-slider__item--transparent {
+    opacity: 0; }
+  .content-slider__item .content__btn {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    max-width: 109px;
+    display: block;
+    margin: 0 auto;
+    padding: 9px 15px; }
+    .content-slider__item .content__btn span {
+      font-size: 10px;
+      line-height: 12px; }
+  .content-slider__item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.content-slider__item-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 16px 0; }
+
 .pagination {
   width: auto;
   display: -webkit-box;
