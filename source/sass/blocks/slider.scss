@@ -88,12 +88,12 @@
   text-align: center;
   
 
-  @media (max-width: 768px) {
-    width: 92%;
-    min-height: 405px;
+  @media (max-width: 768px) {   
+    width: 288px;
+    min-height: 146px;
 
     .content-card {
-      min-height: 405px;
+      min-height: 146px;
     }
   }
 
