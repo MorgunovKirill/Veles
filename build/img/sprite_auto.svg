@@ -6,6 +6,8 @@
 <path d="M12.7191 6.33006L6.33007 -4.79765e-05L6.35727 5.87034L6.38901 12.7191L12.7191 6.33006Z" fill="#A8A8A8"/>
 </symbol><symbol id="icon-arrowsmall" viewBox="0 0 25 25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.59998 8.4L13.2 13L8.59998 17.6L9.99998 19L16 13L9.99998 7L8.59998 8.4Z" fill="#48494D" fill-opacity="0.5"/>
+</symbol><symbol id="icon-bar" viewBox="0 0 2 28">
+<path d="M1 0V27.5" stroke="black"/>
 </symbol><symbol id="icon-bookmark" viewBox="0 0 14 18">
 <path d="M1 1H13V16L7 11.1351L1 16V1Z" stroke="#FF7931" stroke-width="1.5"/>
 </symbol><symbol id="icon-close" viewBox="0 0 30 30">

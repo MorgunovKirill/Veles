@@ -369,8 +369,11 @@
 
     @media (max-width: 1160px) {
       flex-basis: initial;
+      justify-content: initial;
+      align-items: center;
       order: 1;
     }
+    
 
     .content__title {
       font-family: $font-family-secondary;
@@ -401,7 +404,9 @@
     align-items: center;
 
     @media (max-width: 768px) {
+      max-width: 288px;
       min-height: 310px;
+      margin-bottom: 30px;
     }
 
     &:last-child {
@@ -414,6 +419,7 @@
       height: 100%;
       top: 0;
       left: 0;
+      object-fit: cover;
     }
 
     & > * {

@@ -47,10 +47,18 @@
 
     &--prev {
       left: -20px;
+
+      @media (max-width: 1351px) {
+        left: 0;
+      }
     }
 
     &--next {
       right: -20px;
+
+      @media (max-width: 1351px) {
+        right: 0;
+      }
     }
 
     @media (max-width: 768px) {
