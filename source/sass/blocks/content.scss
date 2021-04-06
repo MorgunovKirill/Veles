@@ -35,7 +35,7 @@
     line-height: 27px;
     margin: 0 0 10px 0;
     color: #000000;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, opacity 0.3s ease;
   }
 
   &__description {
@@ -455,6 +455,10 @@
         }
       }
 
+      .content__heading {
+        color: #ff7931;
+      }
+
       .content__views {
         display: flex;
       }
@@ -488,7 +492,7 @@
     &:hover,
     &:focus {
       .content__heading {
-        color: #ff7931;
+        opacity: 0.5;
       }
     }
   }

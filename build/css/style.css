@@ -307,8 +307,8 @@ img {
     line-height: 27px;
     margin: 0 0 10px 0;
     color: #000000;
-    -webkit-transition: color 0.3s ease;
-    transition: color 0.3s ease; }
+    -webkit-transition: color 0.3s ease, opacity 0.3s ease;
+    transition: color 0.3s ease, opacity 0.3s ease; }
   .content__description {
     font-family: "Raleway", "Arial", sans-serif;
     font-style: normal;
@@ -676,6 +676,8 @@ img {
         margin-right: auto; } }
     .content__reviews-item--active .content__bookmark svg {
       fill: #ff7931; }
+    .content__reviews-item--active .content__heading {
+      color: #ff7931; }
     .content__reviews-item--active .content__views {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -698,7 +700,7 @@ img {
     color: inherit;
     outline: none; }
     .content__reviews-link:hover .content__heading, .content__reviews-link:focus .content__heading {
-      color: #ff7931; }
+      opacity: 0.5; }
 
 .copyright {
   text-align: right; }
