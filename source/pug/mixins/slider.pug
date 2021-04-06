@@ -1,6 +1,6 @@
 mixin slider(mod)
   section(class=(mod) ? 'content-slider content-slider--' + mod : 'content-slider')
-    .content-slider__container.container
+    .content-slider__container
       .content-slider__list
         ul.content-slider__wrap
           li.content-slider__item
@@ -23,6 +23,27 @@ mixin slider(mod)
             h2.content-slider__item-title КАК все успевать
             a.content__btn.btn.btn--dark(href="#")
               span Cмотреть
+          li.content-slider__item
+            img(src="img/watches.jpg" width="270" height="136" alt="Фотография часов на руке")
+            h2.content-slider__item-title КАК все успевать
+            a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+          li.content-slider__item
+            img(src="img/ground.jpg" width="270" height="136" alt="Фотография часов на руке")
+            h2.content-slider__item-title КАК все успевать
+            a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+          li.content-slider__item
+            img(src="img/canyon.jpg" width="270" height="136" alt="Фотография часов на руке")
+            h2.content-slider__item-title КАК все успевать
+            a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+          li.content-slider__item
+            img(src="img/planes.jpg" width="270" height="136" alt="Фотография часов на руке")
+            h2.content-slider__item-title КАК все успевать
+            a.content__btn.btn.btn--dark(href="#")
+              span Cмотреть
+
         button( type="button" aria-label="Предыдущий слайд").slider-controls-btn.slider-controls-btn--prev
           +icon("icon-arrowleft", 13, 13)
         button( type="button" aria-label="Предыдущий слайд").slider-controls-btn.slider-controls-btn--next
