@@ -140,6 +140,9 @@ img {
   @media (max-width: 768px) {
     .header {
       padding-top: 40px; } }
+  @media (max-width: 1235px) {
+    .header--opened .main-navigation {
+      display: block; } }
   .header__title {
     font-family: "Playfair-display", "Times New Roman", serif;
     font-weight: 900;

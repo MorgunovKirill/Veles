@@ -6,16 +6,12 @@ const isHeaderOpened = () => {
   return header.classList.contains('header--opened');
 };
 
-const closeMenu = () => {
+const closeMenu = (men) => {
   header.classList.remove('header--opened');
-  window.enableBodyScroll(menu);
+  window.enableBodyScroll(men);
   setTimeout(() => {
     document.activeElement.blur();
   }, 300);
-
-  if (breakpointLg.matches) {
-    toggle.style.marginRight = null;
-  }
 };
 
 const initHeader = () => {
@@ -23,15 +19,13 @@ const initHeader = () => {
     return;
   }
 
-  const toggle = header ? header.querySelector('.header__toggle') : null;
+  const toggle = header ? header.querySelector('.header__toggle') : null;  
   const menu = header ? header.querySelector('.main-navigation') : null;
-  // const mainNavWrapper = header ? header.querySelector('.header__wrapper') : null; 
+  const close = header ? header.querySelector('.main-navigation__close') : null;
 
   
   toggle.addEventListener('click', () => {
-    if (isHeaderOpened()) {
-      closeMenu();
-    } else {
+    if (!isHeaderOpened()) {
       header.classList.add('header--opened');
       window.disableBodyScroll(menu);
 
@@ -40,23 +34,12 @@ const initHeader = () => {
       }, 300);
     }
   });
-  
-//   const setHeader = () => {
-//     if (breakpointLg.matches) {
-//       if (isHeaderOpened()) {
-//         closeMenu();
-//       }
-//     } else {
-//       mainNavWrapper.style.display = 'none';
-//       setTimeout(() => {
-//         mainNavWrapper.removeAttribute('style');
-//       }, 100);
-//     }
-//   };
 
-//   setHeader();
-//   breakpointLg.addListener(setHeader);
-  
+  close.addEventListener('click', () => {
+    if (isHeaderOpened()) {
+      closeMenu(menu);
+    }     
+  });  
 };
 
 export {initHeader};
