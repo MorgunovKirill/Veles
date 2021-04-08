@@ -38,25 +38,28 @@ html(lang="ru")
       h1.header__title Новости культуры
       button.header__toggle(type="button") 
         +icon('icon-menu', 30, 30)
-      ul.main-navigation
-        li.main-navigation__item
-          a.main-navigation__link(href="#") НОВОСТИ
-        li.main-navigation__item
-          a.main-navigation__link(href="#") ОБЗОРЫ
-        li.main-navigation__item
-          a.main-navigation__link(href="#") МУЗЫКА
-        li.main-navigation__item
-          a.main-navigation__link(href="#") АРХИТЕКТУРА
-        li.main-navigation__item
-          a.main-navigation__link(href="#") КИНО
-        li.main-navigation__item
-          a.main-navigation__link(href="#") ТЕАТР
-        li.main-navigation__item
-          a.main-navigation__link(href="#") ЛИТЕРАТУРА
-        li.main-navigation__item
-          a.main-navigation__link(href="#") РЕЛИГИЯ
-        li.main-navigation__item
-          a.main-navigation__link(href="#") ЖИВОПИСЬ
+      nav.main-navigation
+        button.main-navigation__close(type="button") 
+          +icon('icon-close', 30, 30)
+        ul.main-navigation__list
+          li.main-navigation__item
+            a.main-navigation__link(href="#") НОВОСТИ
+          li.main-navigation__item
+            a.main-navigation__link(href="#") ОБЗОРЫ
+          li.main-navigation__item
+            a.main-navigation__link(href="#") МУЗЫКА
+          li.main-navigation__item
+            a.main-navigation__link(href="#") АРХИТЕКТУРА
+          li.main-navigation__item
+            a.main-navigation__link(href="#") КИНО
+          li.main-navigation__item
+            a.main-navigation__link(href="#") ТЕАТР
+          li.main-navigation__item
+            a.main-navigation__link(href="#") ЛИТЕРАТУРА
+          li.main-navigation__item
+            a.main-navigation__link(href="#") РЕЛИГИЯ
+          li.main-navigation__item
+            a.main-navigation__link(href="#") ЖИВОПИСЬ
     main
       section.intro
         .container

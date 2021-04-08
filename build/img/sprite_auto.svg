@@ -11,7 +11,7 @@
 </symbol><symbol id="icon-bookmark" viewBox="0 0 14 18">
 <path d="M1 1H13V16L7 11.1351L1 16V1Z" stroke="#FF7931" stroke-width="1.5"/>
 </symbol><symbol id="icon-close" viewBox="0 0 30 30">
-<path d="M29 29L1 1M1 29L29 1L1 29Z" stroke="#D7D9DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 29L1 1M1 29L29 1L1 29Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol><symbol id="icon-eye" viewBox="0 0 24 16">
 <path d="M12 7.46154C12.3197 7.46154 12.5789 7.22046 12.5789 6.92308C12.5789 6.62569 12.3197 6.38462 12 6.38462C11.6803 6.38462 11.4211 6.62569 11.4211 6.92308C11.4211 7.22046 11.6803 7.46154 12 7.46154Z" stroke-opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 12.8462C14.8777 12.8462 17.2105 10.6765 17.2105 8C17.2105 5.32354 14.8777 3.15385 12 3.15385C9.12231 3.15385 6.78947 5.32354 6.78947 8C6.78947 10.6765 9.12231 12.8462 12 12.8462Z" stroke-opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
