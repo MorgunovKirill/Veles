@@ -36,6 +36,8 @@ html(lang="ru")
     +sprite()
     header.header.container
       h1.header__title Новости культуры
+      button.header__toggle(type="button") 
+        +icon('icon-menu', 30, 30)
       ul.main-navigation
         li.main-navigation__item
           a.main-navigation__link(href="#") НОВОСТИ
