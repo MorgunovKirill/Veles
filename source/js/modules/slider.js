@@ -47,11 +47,7 @@ const contentSlider = () => {
         spaceBetween: 33,
       },
       320: {
-        slidesPerView: 'auto',
-        pagination: {
-          el: '.slider-pagination',
-          type: 'progressbar',
-        },
+        slidesPerView: 'auto',       
       },
     },
 

@@ -3,6 +3,10 @@
 @import "mixins";
 @import "general";
 
+//components
+@import "components/pagination";
+@import "components/slider-pagination";
+
 //blocks
 @import "blocks/header";
 @import "blocks/main-navigation";
@@ -13,5 +17,3 @@
 @import "blocks/slider";
 @import "blocks/hotel-slider";
 
-//components
-@import "components/pagination";
