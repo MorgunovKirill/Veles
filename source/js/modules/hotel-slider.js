@@ -15,11 +15,11 @@ const hotelSlider = () => {
         clickable: true,
       },
   
-      navigation: {
-        nextEl: '.slider-controls-btn--next',
-        prevEl: '.slider-controls-btn--prev',
-        disabledClass: 'slider-controls-btn--disabled',
-      },
+      // navigation: {
+      //   nextEl: '.slider-controls-btn--next',
+      //   prevEl: '.slider-controls-btn--prev',
+      //   disabledClass: 'slider-controls-btn--disabled',
+      // },
   
     //   breakpoints: {      
     //     768: {

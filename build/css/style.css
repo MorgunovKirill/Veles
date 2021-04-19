@@ -984,6 +984,52 @@ img {
 
 .hotel-slider {
   width: 100%; }
+  .hotel-slider .slider-pagination {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 10%; }
+    @media (max-width: 768px) {
+      .hotel-slider .slider-pagination {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        border-radius: 100px;
+        overflow: hidden;
+        z-index: 1; } }
+    .hotel-slider .slider-pagination .swiper-pagination-bullet {
+      position: relative;
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      -webkit-transition: width 0.3s ease;
+      transition: width 0.3s ease; }
+      .hotel-slider .slider-pagination .swiper-pagination-bullet::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 0.2; }
+      .hotel-slider .slider-pagination .swiper-pagination-bullet-active {
+        cursor: default; }
+        .hotel-slider .slider-pagination .swiper-pagination-bullet-active::before {
+          opacity: 1; }
 
 .hotel-slider__container {
   position: relative;
