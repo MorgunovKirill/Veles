@@ -1040,10 +1040,8 @@ img {
   cursor: grab; }
 
 .hotel-slider__item {
-  background-image: url("../img/intro-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center 0;
+  background-color: #000;
+  position: relative;
   min-height: 464px;
   padding-top: 62px;
   padding-bottom: 48px;
@@ -1056,6 +1054,15 @@ img {
   height: 100%; }
   .hotel-slider__item > * {
     position: relative; }
+  .hotel-slider__item img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
   .hotel-slider__item--hidden::before {
     opacity: 0.7;
     z-index: 2; }
