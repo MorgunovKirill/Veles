@@ -7,8 +7,7 @@ const bookmarks = () => {
       }
 
       bookmarks.forEach((element) => {     
-        element.addEventListener('click', () => {
-          console.log( element.closest('.content__reviews-item'));
+        element.addEventListener('click', () => {         
           element.closest('.content__reviews-item').classList.toggle('content__reviews-item--active');
         });
       })
